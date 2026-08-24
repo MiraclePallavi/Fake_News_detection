@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and artifacts
+checkpoints/
+models/
+*.pt
+*.pth
+*.bin
+
+# Datasets and large data
+/data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+
+# Secrets and API keys
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*token*
+*apikey*
